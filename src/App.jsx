@@ -8,21 +8,31 @@ import Contact from "./sections/Contact";
 
 const App = () => {
   return (
-    <div className="font-sans">
+    <div className="font-sans scroll-smooth">
       <Navbar />
-      <section id="about" className="h-screen flex items-center justify-center bg-gray-900 text-white">
+
+      {/* About Section */}
+      <section id="about" className="min-h-[130vh] flex items-center justify-center bg-gray-900 text-white pt-20">
         <About />
       </section>
-      <section id="projects" className="h-screen flex items-center justify-center bg-gray-800 text-white">
+
+      {/* Projects Section */}
+      <section id="projects" className="min-h-[140vh] flex items-center justify-center bg-gray-800 text-white">
         <Projects />
       </section>
-      <section id="education" className="h-screen flex items-center justify-center bg-gray-700 text-white">
+
+      {/* Education Section */}
+      <section id="education" className="min-h-[120vh] flex items-center justify-center bg-gray-700 text-white">
         <Education />
       </section>
-      <section id="experience" className="h-screen flex items-center justify-center bg-gray-600 text-white">
+
+      {/* Experience Section */}
+      <section id="experience" className="min-h-[120vh] flex items-center justify-center bg-gray-600 text-white">
         <Experience />
       </section>
-      <section id="contact" className="h-screen flex items-center justify-center bg-gray-500 text-white">
+
+      {/* Contact Section */}
+      <section id="contact" className="min-h-[100vh] flex items-center justify-center bg-gray-500 text-white">
         <Contact />
       </section>
     </div>
