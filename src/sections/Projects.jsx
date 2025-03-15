@@ -22,6 +22,17 @@ const Projects = () => {
             Developed as part of my **final-year capstone project**.
           </p>
 
+          {/* Wireframe Download Button */}
+          <div className="mt-4">
+            <a
+              href="/Capstone-Wireframes.pdf"
+              download="Capstone-Wireframes.pdf"
+              className="inline-flex items-center px-6 py-3 bg-blue-500 text-white text-lg font-semibold rounded-lg shadow-md transition-all duration-300 hover:bg-blue-400 hover:scale-105 hover:shadow-lg"
+            >
+              📂 Download Wireframes (PDF)
+            </a>
+          </div>
+
           {/* Capstone Project Documents */}
           <div className="mt-6 text-left bg-gray-900 p-6 rounded-lg shadow-lg">
             <h3 className="text-2xl font-semibold text-blue-400 mb-4">Project Documents</h3>
