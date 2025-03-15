@@ -22,15 +22,28 @@ const Projects = () => {
             Developed as part of my **final-year capstone project**.
           </p>
 
-          {/* Wireframes Download Link */}
-          <div className="mt-4">
-            <a
-              href="/Capstone-Wireframes.pdf"
-              download="Capstone-Wireframes.pdf"
-              className="inline-flex items-center px-6 py-3 bg-blue-500 text-white text-lg font-semibold rounded-lg shadow-md transition-all duration-300 hover:bg-blue-400 hover:scale-105 hover:shadow-lg"
-            >
-              📂 Download Wireframes (PDF)
-            </a>
+          {/* Capstone Project Documents */}
+          <div className="mt-6 text-left bg-gray-900 p-6 rounded-lg shadow-lg">
+            <h3 className="text-2xl font-semibold text-blue-400 mb-4">Project Documents</h3>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              {[
+                { name: "W25_T12_ProjectReport2.pdf", label: "Final Status Report" },
+                { name: "F24_T12_CORY_ProjectSummary_Template.pdf", label: "Project Summary" },
+                { name: "F24_T12_Project_Vision_1.0.docx.pdf", label: "Project Vision Document" },
+                { name: "F24_T12_High_Level_Requirements_Document.pdf", label: "Requirements Document" },
+                { name: "Project_Plan_V1.0.pdf", label: "Project Plan" },
+                { name: "F24_T12_Requirements_Analysis_Design.pdf", label: "Requirements Analysis & Design" },
+              ].map((file, index) => (
+                <a
+                  key={index}
+                  href={`/${file.name}`}
+                  download={file.name}
+                  className="flex items-center justify-between bg-gray-700 hover:bg-gray-600 text-white px-4 py-3 rounded-lg shadow-md transition-all duration-300"
+                >
+                  📂 {file.label}
+                </a>
+              ))}
+            </div>
           </div>
         </div>
 
