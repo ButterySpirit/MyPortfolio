@@ -28,15 +28,15 @@ const Projects = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               {[
                 { name: "W25_T12_ProjectReport2.pdf", label: "Final Status Report" },
-                { name: "F24_T12_CORY_ProjectSummary_Template.pdf", label: "Project Summary" },
-                { name: "F24_T12_Project_Vision_1.0.docx.pdf", label: "Project Vision Document" },
-                { name: "F24_T12_High_Level_Requirements_Document.pdf", label: "Requirements Document" },
-                { name: "Project_Plan_V1.0.pdf", label: "Project Plan" },
-                { name: "F24_T12_Requirements_Analysis_Design.pdf", label: "Requirements Analysis & Design" },
+                { name: "F24_T12_CORY - Project Summary Template.pdf", label: "Project Summary" },
+                { name: "F24_T12_Project Vision 1.0.docx.pdf", label: "Project Vision Document" },
+                { name: "F24_T12_High Level Requirements Document.pdf", label: "Requirements Document" },
+                { name: "Project Plan V1.0.pdf", label: "Project Plan" },
+                { name: "F24_T12_Requirements Analysis_Design.pdf", label: "Requirements Analysis & Design" },
               ].map((file, index) => (
                 <a
                   key={index}
-                  href={`/${file.name}`}
+                  href={`/${file.name}`} // Directly referencing public files
                   download={file.name}
                   className="flex items-center justify-between bg-gray-700 hover:bg-gray-600 text-white px-4 py-3 rounded-lg shadow-md transition-all duration-300"
                 >
