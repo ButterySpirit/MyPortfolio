@@ -15,10 +15,10 @@ const About = () => {
 
         {/* Introduction */}
         <p className="text-lg leading-relaxed">
-          I’m <span className="text-blue-400 font-semibold">Nikola Varicak</span>, a passionate **full-stack developer** 
-          based in Toronto. I’m currently pursuing a **Computer Programming and Analysis** degree at 
+          I’m <span className="text-blue-400 font-semibold">Nikola Varicak</span>, a passionate <strong>full-stack developer </strong> 
+          based in Toronto. I’m currently pursuing a <strong>Computer Programming and Analysis</strong> degree at 
           <span className="text-green-400 font-semibold"> George Brown College</span>, expected to graduate in April 2025. 
-          With a deep understanding of **frontend, backend, and cloud technologies**, I build scalable and impactful web applications.
+          With a deep understanding of <strong>frontend, backend, and cloud technologies</strong>, I build scalable and impactful web applications.
         </p>
 
         {/* Resume Download Button */}
@@ -39,8 +39,8 @@ const About = () => {
             "The only way to do great work is to love what you do." – Steve Jobs
           </p>
           <p className="mt-4 text-lg leading-relaxed">
-            I strive to create **efficient, scalable, and user-friendly software solutions**. My goal is to **develop innovative 
-            applications** that not only **enhance user experiences** but also **push technological boundaries**. Every project 
+            I strive to create <strong>efficient, scalable, and user-friendly software solutions</strong>. My goal is to <strong>develop innovative 
+            applications</strong> that not only <strong>enhance user experiences</strong> but also <strong>push technological boundaries</strong>. Every project 
             is an opportunity to learn, grow, and improve my craft.
           </p>
         </div>

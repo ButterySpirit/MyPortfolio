@@ -27,12 +27,12 @@ const Experience = () => {
           </p>
           <p className="mt-1 text-lg text-gray-300 italic">Feb 2023 – Present</p>
           <ul className="mt-4 text-lg text-gray-300 list-disc list-inside">
-            <li>Developed **real-time collaborative music creation features** for a next-generation **digital audio workstation (DAW)**.</li>
-            <li>Implemented **WebRTC & WebSockets** for seamless live collaboration between music producers.</li>
-            <li>Integrated a **custom digital synthesizer engine** using **Web Audio API** for high-performance sound processing.</li>
-            <li>Optimized **audio playback and rendering**, reducing latency by **30%** for a smoother production experience.</li>
-            <li>Designed an **intuitive UI/UX** for musicians and producers, ensuring a modern and responsive interface.</li>
-            <li>Worked in an **Agile environment**, contributing to **feature planning, bug fixes, and performance optimizations**.</li>
+            <li>Developed <strong>real-time collaborative music creation features</strong> for a next-generation <strong>digital audio workstation (DAW)</strong>.</li>
+            <li>Implemented <strong>WebRTC & WebSockets</strong> for seamless live collaboration between music producers.</li>
+            <li>Integrated a <strong>custom digital synthesizer engine</strong> using <strong>Web Audio API</strong> for high-performance sound processing.</li>
+            <li>Optimized <strong>audio playback and rendering</strong>, reducing latency by <strong>30%</strong> for a smoother production experience.</li>
+            <li>Designed an <strong>intuitive UI/UX</strong> for musicians and producers, ensuring a modern and responsive interface.</li>
+            <li>Worked in an <strong>Agile environment</strong>, contributing to <strong>feature planning, bug fixes, and performance optimizations</strong>.</li>
           </ul>
         </div>
 
@@ -51,10 +51,10 @@ const Experience = () => {
           </p>
           <p className="mt-1 text-lg text-gray-300 italic">Jan 2024 – Present</p>
           <ul className="mt-4 text-lg text-gray-300 list-disc list-inside">
-            <li>Developed and maintained **React-based UIs** for a high-traffic website generating **millions in revenue**.</li>
-            <li>Designed **reusable components** using **TailwindCSS** to ensure a modern and responsive UI.</li>
-            <li>Collaborated with backend engineers to integrate **REST APIs** for real-time data updates.</li>
-            <li>Optimized performance, reducing load times by **40%** and enhancing user experience.</li>
+            <li>Developed and maintained <strong>React-based UIs</strong> for a high-traffic website generating <strong>millions in revenue</strong>.</li>
+            <li>Designed <strong>reusable components</strong> using <strong>TailwindCSS</strong> to ensure a modern and responsive UI.</li>
+            <li>Collaborated with backend engineers to integrate <strong>REST APIs</strong> for real-time data updates.</li>
+            <li>Optimized performance, reducing load times by <strong>40%</strong> and enhancing user experience.</li>
           </ul>
         </div>
       </div>

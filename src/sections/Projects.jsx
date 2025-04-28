@@ -16,10 +16,10 @@ const Projects = () => {
         <div className="mt-12 border-t border-gray-700 pt-6">
           <h2 className="text-3xl font-semibold">Capstone Project</h2>
           <p className="mt-4 text-lg text-gray-300 leading-relaxed">
-            <span className="text-blue-400 font-semibold">CORY – Event Staffing Platform</span> – A **full-stack web application** 
-            designed to streamline event staffing by connecting **event organizers with available staff**.  
-            Built using **React, Node.js, Express.js, MongoDB**, and integrated **real-time job postings and automated scheduling**.
-            Developed as part of my **final-year capstone project**.
+            <span className="text-blue-400 font-semibold">CORY – Event Staffing Platform</span> – A <strong>full-stack web application</strong> 
+            designed to streamline event staffing by connecting <strong>event organizers with available staff</strong>.  
+            Built using <strong>React, Node.js, Express.js, MongoDB</strong>, and integrated <strong>real-time job postings and automated scheduling</strong>.
+            Developed as part of my <strong>final-year capstone project</strong>.
           </p>
 
           {/* Wireframe Download Button */}
@@ -47,7 +47,7 @@ const Projects = () => {
               ].map((file, index) => (
                 <a
                   key={index}
-                  href={`/${file.name}`} // Directly referencing public files
+                  href={`/${file.name}`}
                   download={file.name}
                   className="flex items-center justify-between bg-gray-700 hover:bg-gray-600 text-white px-4 py-3 rounded-lg shadow-md transition-all duration-300"
                 >
@@ -67,8 +67,8 @@ const Projects = () => {
             <div>
               <h3 className="text-2xl font-semibold text-green-400">React-Native Restaurant App</h3>
               <p className="text-lg text-gray-300 mt-2 leading-relaxed">
-                Built a **responsive restaurant management app** with location services and data persistence using **React Native** and **Expo**.
-                Integrated **Autocomplete API** and **Place Details API** for restaurant recommendations.
+                Built a <strong>responsive restaurant management app</strong> with location services and data persistence using <strong>React Native</strong> and <strong>Expo</strong>.
+                Integrated <strong>Autocomplete API</strong> and <strong>Place Details API</strong> for restaurant recommendations.
               </p>
             </div>
 
@@ -76,8 +76,8 @@ const Projects = () => {
             <div>
               <h3 className="text-2xl font-semibold text-yellow-400">Travel Booking Web App</h3>
               <p className="text-lg text-gray-300 mt-2 leading-relaxed">
-                Developed a **.NET Core Entity Framework MVC** application where users can book flights, hotels, and rentals across Canada.
-                Integrated **user authentication** and **role-based authorization** with IdentityCore.
+                Developed a <strong>.NET Core Entity Framework MVC</strong> application where users can book flights, hotels, and rentals across Canada.
+                Integrated <strong>user authentication</strong> and <strong>role-based authorization</strong> with IdentityCore.
               </p>
             </div>
 
@@ -85,8 +85,8 @@ const Projects = () => {
             <div>
               <h3 className="text-2xl font-semibold text-red-400">Real-Time Chat Room</h3>
               <p className="text-lg text-gray-300 mt-2 leading-relaxed">
-                Designed a **MERN Stack** chat application where users can create or join chat rooms and chat in real-time.
-                Used **WebSockets for real-time messaging**.
+                Designed a <strong>MERN Stack</strong> chat application where users can create or join chat rooms and chat in real-time.
+                Used <strong>WebSockets for real-time messaging</strong>.
               </p>
             </div>
 
@@ -94,7 +94,7 @@ const Projects = () => {
             <div>
               <h3 className="text-2xl font-semibold text-blue-400">Guitar Trainer Mobile App</h3>
               <p className="text-lg text-gray-300 mt-2 leading-relaxed">
-                Published an **Android app** using **React Native** that helps guitarists **improve chord recognition** through an 
+                Published an <strong>Android app</strong> using <strong>React Native</strong> that helps guitarists <strong>improve chord recognition</strong> through an 
                 interactive quiz-based learning experience.
               </p>
             </div>
@@ -103,8 +103,8 @@ const Projects = () => {
             <div>
               <h3 className="text-2xl font-semibold text-green-400">Python Game Development</h3>
               <p className="text-lg text-gray-300 mt-2 leading-relaxed">
-                Developed several **video games** using **Pygame, Pyglet, and Pymunk**.
-                Implemented **.TMX file loading** using **Pyglet library**.
+                Developed several <strong>video games</strong> using <strong>Pygame, Pyglet, and Pymunk</strong>.
+                Implemented <strong>.TMX file loading</strong> using <strong>Pyglet library</strong>.
               </p>
             </div>
           </div>
@@ -119,7 +119,7 @@ const Projects = () => {
             <div>
               <h3 className="text-2xl font-semibold text-indigo-400">Portfolio Website</h3>
               <p className="text-lg text-gray-300 mt-2 leading-relaxed">
-                Designed and developed this **fully responsive portfolio website** using **React, TailwindCSS, and Vercel**. 
+                Designed and developed this <strong>fully responsive portfolio website</strong> using <strong>React, TailwindCSS, and Vercel</strong>. 
                 Features smooth scrolling, animations, and a clean UI.
               </p>
             </div>
